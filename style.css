@@ -1,0 +1,223 @@
+body, h1, h2, p, label {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: aquamarine;
+    background-size: cover;
+    color: sienna;
+    text-align: centre;
+    padding: 50px 20px;
+  }
+  
+  .top-nav {
+    position: absolute;
+    top: 10px;
+    right: 20px; /* Moved to the top-left corner */
+  }
+  
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-nav ul li {
+    margin-right: 15px;
+  }
+  
+  .top-nav ul li a {
+    color:black; /* Dark text color for contrast */
+    text-decoration: none;
+    font-weight: bold;
+    background-color: aquamaine;
+    border: 2px solid aquamarine; /* Border for button effect */
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .top-nav ul li a:hover {
+    background-color: aquamarine; /* Light gray hover effect */
+  }
+  
+  /* Main Navigation Bar Styling */
+  .main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 40px; /* Position it below the top nav */
+    text-align: center;
+  }
+  
+  .main-nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  .main-nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Hero Section Styling */
+  .hero-section {
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Hero Section Styling */
+  .hero-section {
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  nav ul {
+    list-style-type: lower-roman;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+  }
+  
+  /* Hero Section Styling */
+  .hero-section {
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  section h2 {
+    color: black;
+  }
+  
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: ;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .hero-section {
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 50px 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .job {
+    border: 1px solid sienna;
+    padding: 15px;
+    width: 30%;
+    background-color: white;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, input, select, button {
+    margin: 10px 0;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color:pink;
+    color: white;
+  }
